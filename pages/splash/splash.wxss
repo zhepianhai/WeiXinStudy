@@ -1,0 +1,50 @@
+/* pages/splash/splash.wxss */
+page {
+  height: 100%;
+}
+
+.bg_main {
+  position: relative;
+  background-color: rgb(255, 253, 253);
+  height: 100%;
+}
+.bg_content {
+  height: 84%;
+  width: 100%;
+  position: relative;
+}
+
+.bg_content .jishi {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg_content .jishi text {
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.bg_content image {
+  width: 100vw;
+  height: 100vh;
+}
+.bg_buttom {
+  height: 16%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /*水平*/
+  align-items: center; /*垂直*/
+  background-color: rgb(43, 43, 39);
+}
+.text_style {
+  font-size: 24rpx;
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,14 @@
+<!-- pages/splash/splash.wxml
+    启动页面 -->
+<view class="bg_main">
+    <view class="bg_content">
+        <view class="jishi" bindtap="tiaozhu">
+            <text>跳过</text>
+            <text>{{countDownNum}}秒</text>
+        </view>
+        <!-- <image bindload="imageLoad" style="width:{{zt_width}}px;height:{{zt_hight}}px;" src="../../images/ic_yuan.png"></image> -->
+    </view>
+    <view class="bg_buttom">
+        <view class="text_style">本项目是微信小程序开发</view>
+    </view>
+</view>
